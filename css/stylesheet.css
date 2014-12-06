@@ -1,6 +1,6 @@
 .header-nonbs {
   height: 412px;
-  background: #fff url(../img/gfb.jpg) no-repeat 50% 50%; 
+  background: #fff url("../img/gfb.jpg") no-repeat 50% 50%; 
 /*    background-image: url("../img/gfb.jpg");*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -26,12 +26,23 @@ h1{
 }
 
 
+/*
+#dome{
+    background: url("../img/superdome.jpg") no-repeat 50% 50%; 
+    
+}
+*/
 
 
 
 
-
-
+.form-horizontal{
+   background-color: rgba(219, 178, 62, 0.64); 
+   padding: 20px;
+    border-radius: 10px;
+   
+    
+}
 
 
 
@@ -80,8 +91,18 @@ tr:hover{
 */
 
 
+/*
+img {  
+  border: 0;  
+}  
 
-
+img {  
+   page-break-inside: avoid;  
+ }  
+ img {  
+   max-width: 100% !important;  
+ }  
+*/
 
 
 
