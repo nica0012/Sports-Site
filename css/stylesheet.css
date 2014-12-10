@@ -1,47 +1,80 @@
-.header-nonbs {
-  height: 412px;
-  background: #fff url("../img/gfb.jpg") no-repeat 50% 50%; 
-/*    background-image: url("../img/gfb.jpg");*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
+
+
+
+
+
+
+
+/*HEAD*/
+
+#headerimg{
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
 }
+
 
 .navbar{
-  background: #dbb23e;
-  padding: 1em 0;
-  box-shadow: 3px 3px 5px -2px #333;
-}
-.navbar-default .navbar-nav > li > a{
-  color:#fff;
+    margin-top: 3px;
+    background-color: #000;
+    border-radius: 1.5rem;
 }
 
 
+/*BODY*/
+
+
+body{
+    background-color: #000;
+    
+}
+
+
+ul{
+    margin-top: 3px;
+    font-size: 20px;
+    
+}
 h1{
+    font-family: 'Doppio One' , sans-serif;
+    color: #fff;
     margin-bottom: 3rem;
-    text-align: center;
+}
+
+h4{
+    font-family: 'Doppio One', sans-serif;
+    color: #fff;
+    Font-size: 26px;
     
 }
 
+h3{
+    font-family: 'Doppio One' , sans-serif;
+    color: #fff;
+}
 
-/*
-#dome{
-    background: url("../img/superdome.jpg") no-repeat 50% 50%; 
+h2{
+    
+ color: #dbb23e;    
+}
+
+#h4stand{
+        
+    font-family: 'Abel' , sans-serif;
+    color: #dbb23e;
     
 }
-*/
 
+p{
+        font-family: 'Doppio One', sans-serif;
 
+ font-size: 18px; 
+line-height: 25px;
+    color: #676767;
+}
 
-
-.form-horizontal{
-   background-color: rgba(219, 178, 62, 0.64); 
-   padding: 20px;
-    border-radius: 10px;
-   
-    
+.control-label{
+    color: #c7c7c7;
 }
 
 
@@ -50,63 +83,165 @@ h1{
 
 
 
+/*TABLE*/
 
-
-.footer-nonbs {
-  border-top: 1px solid #444;
-  padding-top: 20px;
-  margin-top: 20px;
-  color: #999
+table{
+    background-color: #000;
 }
-/**********************
-These styles just create a bit
-of extra space for the header
- and the footer.
-**********************/
-a{
-  font-weight:bold;
-  font-size:1.6rem;
-}
+tr{
+        color: #fff;
 
-
-.table{
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    
 }
 
 tr:hover{
-    background-color: #dbb23e;
-/*    transition: .02s;*/
+    color: #fff;
+background-color: #dbb23e;
+}
+
+
+.thumbnail{
+    background-color: #000;
+    color: #fff;
+    border-radius: 1.5rem;
+    opacity: .4;
+}
+
+.thumbnail p,h3{
+    text-align: center;
+    opacity: 0;
+    padding-bottom: .5rem;
+}
+
+
+
+/*THUMBNAIL ANIMATION HOME*/
+
+
+/*1*/
+
+#thumb1:hover{
+     transition: all 0.2s linear;
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+#thumb1:hover p,h3{
+        transition: all 0.2s linear;
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+/*2*/
+
+
+#thumb2:hover{
+     transition: all 0.2s linear;
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+#thumb2:hover p,h3{
+        transition: all 0.2s linear;
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+/*3*/
+
+#thumb3:hover{
+     transition: all 0.2s linear;
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+#thumb3:hover p,h3{
+        transition: all 0.2s linear;
+    opacity: 1;
+    transform: scale(1.02);
     
 }
 
-/*
 
-.btn{
-   background-color: #dbb23e; 
+/*LOCATION ANIMATION*/
+
+#map:hover{
+    
+    transition: all 0.3s linear;
+    opacity: 1;
+    transform: scale(1.05);
+}
+#static:hover{
+    
+    transition: all 0.3s linear;
+    opacity: 1;
+    transform: scale(1.05);
 }
 
 
-*/
+
+/*BUTTONS*/
 
 
-/*
-img {  
-  border: 0;  
-}  
+.btn{
+background-color: #dbb23e;
+border: #000;
+}
+.btn:hover{
+background-color: #c7c7c7;
 
-img {  
-   page-break-inside: avoid;  
- }  
- img {  
-   max-width: 100% !important;  
- }  
-*/
+}
 
 
 
 
 
+.input-xlarge{
+    width:65%;
+}
+
+form{
+    border-radius: 2.5rem;
+    padding: 8px;
+    background-color: #000;
+    margin-bottom: 10rem;
+}
 
 
+
+
+/*FOOTER*/
+
+#footer{
+    background-color: #000;
+    color: #dbb23e;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    bottom:0 ;
+}
+
+#footer p{
+        color: #dbb23e;
+        text-align: center;
+
+
+}
+
+#footerreg{
+    width: 0 auto;
+      position: absolute;
+    bottom: 0;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+    
+           
+
+}
+
+#footerreg p{
+            color: #dbb23e;
+
+}

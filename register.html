@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
-   
-      
+    <!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+
+
+
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-           <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -19,45 +25,54 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-      
-      
-      
+</head>
+
+<body>
+
+
+
     <div class="container">
-  
-  <!--  Header Section-->
-  <!-- classes in this page that 
+
+        <!--  Header Section-->
+        <!-- classes in this page that 
       end with -nonbs 
       are non-bootstrap classes
   -->
-  <div class="row header-nonbs">
-    <div class="col-xs-12 text-center">
-        
-      
-    </div>
-  </div>
-  
-  <div class="row navigation-bar">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="demo-navbar-collapse">
-              <ul class="nav nav-pills nav-justified">
-  <li role="presentation" class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
- <li role="presentation"><a href="standings.html"> <span class="glyphicon glyphicon-stats"></span> Standings</a></li>
-  <li role="presentation"><a href="location.html"> <span class="glyphicon glyphicon-map-marker"></span> Locations</a></li>
-  <li role="presentation"><a href="register.html"> <span class="glyphicon glyphicon-circle-arrow-up"></span> Sign Up</a></li>
+        <div class="row header-nonbs">
+            <div class="col-xs-12 text-center">
+                <img src='img/gfb.jpg' id="headerimg">
 
-</ul>
-<!--
+
+            </div>
+        </div>
+
+        <div class="row navigation-bar">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="demo-navbar-collapse">
+                        <ul class="nav nav-pills nav-justified">
+                            <li role="presentation"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="standings.html"> <span class="glyphicon glyphicon-stats"></span> Standings</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="location.html"> <span class="glyphicon glyphicon-map-marker"></span> Location</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="register.html"> <span class="glyphicon glyphicon-circle-arrow-up"></span> Sign Up</a>
+                            </li>
+
+                        </ul>
+                        <!--
 <!--
 <!--
             <form class="navbar-form navbar-left pull-right" role="search">
@@ -67,104 +82,173 @@
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
 -->
-          </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </nav>
-  </div>
-  
-  <!--  Content Area-->
-        
 
-        
-              <div class="row content">
-    <div class="col-md-5 col-sm-4">
-    <h3>Sign Up Information</h3>
-      <p> Sign up with us for important updates and alerts for your upcoming games and standing updates for your season!</p>
-        <h3>Pricing</h3>
-        <p>Womans: Team cost: $1200
-        <br>
-           Mens: Team cost: $1200
-        <br>
-        Co-Ed: Team cost: $1000</p>
-        
-        <p><strong>Please note</strong> that your team will be paying at the Ben Franklyn Dome.</p>
-    </div>
- 
-        
-     <div class="col-md-5 col-sm-5 col-xs-offset-2
-">
-   
- <form class="form-horizontal" action='' method="POST">
-  <fieldset>
-    <div id="legend">
-      <h3>Register</h3>
-    </div>
-    <div class="control-group">
-      <!-- Username -->
-      <label class="control-label"  for="username">First Name</label>
-      <div class="controls">
-        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
-        <p class="help-block">First name</p>
-      </div>
-        <label class="control-label"  for="username">Last Name</label>
-      <div class="controls">
-        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
-        <p class="help-block">Last name</p>
-      </div>
-        <label class="control-label"  for="username">Team Name</label>
-      <div class="controls">
-        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
-        <p class="help-block">Who is your team?</p>
-    </div>
- 
-    <div class="control-group">
-      <!-- E-mail -->
-      <label class="control-label" for="email">E-mail</label>
-      <div class="controls">
-        <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
-        <p class="help-block">Please provide your E-mail</p>
-      </div>
-    </div>
- 
-    <div class="control-group">
-      <!-- Password-->
-      <label class="control-label" for="password">Password</label>
-      <div class="controls">
-        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
-        <p class="help-block">Password should be at least 4 characters</p>
-      </div>
-    </div>
- 
-   
- 
-    <div class="control-group">
-      <!-- Button -->
-      <div class="controls">
-        <p><a href="registedconfirmation.html" class="btn btn-primary" role="button">Register</a></p>
-      </div>
-    </div>
-  </fieldset>
-</form>
-        
-                    
-
-  
-  
-  <!--  Footer Area-->
-  <div class="row footer-nonbs">
-    <div class="col-xs-12 text-center">
-      <p>&copy; 2014 SitePoint Pty. ltd.</p>
-    </div>
-  </div>
-        
-    
-</div>
+        <!--  Content Area-->
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+        <div class="row content">
+            <div class="col-md-8 col-sm-12">
+                <h1>Sign Up Information</h1>
+                <p>Sign up with us for important updates and alerts for your upcoming games and standing updates for your season!</p>
+                <h4>Pricing</h4>
+                <p>Womans: Team cost: $1200
+                    <br>Mens: Team cost: $1200
+                    <br>Co-Ed: Team cost: $1000</p>
+
+                <p><strong>Please note</strong> that your team will be paying at the Ben Franklyn Dome.</p>
+            </div>
+
+
+            <div class="col-md-9 col-sm-12">
+
+                <form class="form-horizontal" action='' method="POST">
+                    <fieldset>
+                        <div id="legend">
+                            <h2>Register</h2>
+                        </div>
+                        <div class="control-group">
+                            <!-- Username -->
+                            <label class="control-label" for="username">First Name</label>
+                            <div class="controls">
+                                <input type="text" id="username" name="username" placeholder="Billy" class="input-xlarge">
+                                <p class="help-block">First name</p>
+                            </div>
+                            <label class="control-label" for="username">Last Name</label>
+                            <div class="controls">
+                                <input type="text" id="username" name="username" placeholder="Bob" class="input-xlarge">
+                                <p class="help-block">Last name</p>
+                            </div>
+                            <label class="control-label" for="username">Division</label>
+                            <div class="controls">
+                                <select name="num_adults" id="num_adults">
+                                    <option value="1">Mens</option>
+                                    <option value="2">Womans</option>
+                                    <option value="3">Co-Ed</option>
+
+                                </select>
+                                <p class="help-block">What is your division?</p>
+                            </div>
+                            <label class="control-label" for="username">Season</label>
+
+                            <div class="controls">
+                                <select name="num_adults" id="num_adults">
+                                    <option value="1">Winter</option>
+                                    <option value="2">Spring</option>
+                                    <option value="3">Summer</option>
+                                    <option value="3">Fall</option>
+
+
+                                </select>
+                                <p class="help-block">Which season?</p>
+                            </div>
+
+                            <label class="control-label" for="username">Year</label>
+
+                            <div class="controls">
+                                <select name="num_adults" id="num_adults">
+                                    <option value="1">2015</option>
+                                    <option value="2">2016</option>
+
+
+                                </select>
+
+                                <p class="help-block">Which year?</p>
+                            </div>
+
+                            <div class="control-group">
+                                <!-- E-mail -->
+                                <label class="control-label" for="email">E-mail</label>
+                                <div class="controls">
+                                    <input type="text" id="email" name="email" placeholder="Billybob@example.com" class="input-xlarge">
+                                    <p class="help-block">Please provide your E-mail</p>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <!-- Password-->
+                                <label class="control-label" for="password">Password</label>
+                                <div class="controls">
+                                    <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                                    <p class="help-block">Password should be at least 4 characters</p>
+                                </div>
+                            </div>
+
+
+
+
+                    </fieldset>
+
+
+                    <h2> Payment Information</h2>
+
+                    <label class="control-label" for="username">Card Type</label>
+                    <div class="controls">
+                        <select name="num_adults" id="num_adults">
+                            <option value="1">Mastercard</option>
+                            <option value="2">VISA</option>
+                            <option value="3">AmEx</option>
+
+                        </select>
+                        <p class="help-block">Please select your card type</p>
+                    </div>
+
+                    <div class="control-group">
+                        <!-- card number -->
+                        <label class="control-label" for="username">Card Number</label>
+                        <div class="controls">
+                            <input type="text" id="carmnum" name="carmnum" placeholder="" class="input-xlarge">
+                            <p class="help-block">Enter your card number</p>
+                        </div>
+                        <div class="control-group">
+                            <!-- securitycode -->
+                            <label class="control-label" for="username">Security Code</label>
+                            <div class="controls">
+                                <input type="text" id="securitycode" name="securitycode" placeholder="" class="input-xlarge">
+                                <p class="help-block">Enter your 3 digit security code</p>
+                            </div>
+                            <div class="control-group">
+                                <!-- nameoncard -->
+                                <label class="control-label" for="username">Name on Card</label>
+                                <div class="controls">
+                                    <input type="text" id="nameoncard" name="nameoncard" placeholder="" class="input-xlarge">
+                                    <p class="help-block">Exact name</p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <!-- Button -->
+                                <div class="controls">
+                                    <p><a href="registedconfirmation.html" class="btn btn-primary" role="button">Register</a></p>
+                                </div>
+                            </div>
+                            </fieldset>
+                </form>
+
+
+
+
+
+
+
+                <!--  Footer Area-->
+                <div class="row footer-nonbs" id="footerreg">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy; Nicastro 2014</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
